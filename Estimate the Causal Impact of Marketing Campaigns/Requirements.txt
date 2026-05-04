@@ -1,0 +1,9 @@
+1
+causalimpact, econml
+
+For causal modeling
+
+2
+pandas, matplotlib
+
+Data manipulation and plotting
