@@ -24,7 +24,7 @@ The analysis runs through five distinct methods, each attacking the same questio
 
 ## The setup
 
-The synthetic treatment effect was set at **+12% lift**, ramping up over 30 days post-launch. This gave me a ground truth to check each method against — useful for understanding which estimators are conservative and which ones overshoot.
+The synthetic treatment effect was set at **+9.97% lift**, ramping up over 30 days post-launch. This gave me a ground truth to check each method against — useful for understanding which estimators are conservative and which ones overshoot.
 
 Treatment/control split was done geographically by city, based on median campaign engagement. Sales were derived from `Clicks × Conversion_Rate × 50` with a sinusoidal seasonal adjustment baked in.
 
